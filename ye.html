@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-
+<link rel="icon" href="favikan.png" type="image/gif" sizes="16x16">
+<script type="text/javascript" src="ye.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
 <head>
     <title>Ye Button</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
+<script>
+function preload() {
+    debt = loadSound("debt.mp3");
+}
+</script>
 <body>
     <section class="intro">
         <div class="inner">
             <div class="content">
                 <h1>HIT THE</h1>
-                <a class="btn" href="#">YE BUTTON</a>
+                <a class="btn" href="#" onclick="sound.play()">YE BUTTON</a>
             </div>
         </div>
     </section>
@@ -23,11 +29,16 @@
             <p>SUPPORT KANYE WEST</p>
             <div class="media">
                 <p>
-                    <a href="https://itunes.apple.com/us/artist/kanye-west/id2715720">APPLE MUSIC</a>
+                    <a href="https://itunes.apple.com/us/artist/kanye-west/id2715720" target="_blank">APPLE MUSIC</a>
                 </p>
                 <p>
-                    <a href="https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x">SPOTIFY</a>
+                    <a href="https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
+                    target="_blank">SPOTIFY</a>
                 </p>
+                <p>
+                    <a href="https://shop.kanyewest.com/"
+                    target="_blank">SHOP</a>
+                </p>                
             </div>
         </div>
     </footer>

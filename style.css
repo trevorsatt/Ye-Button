@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/*reset style*/
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/*background*/
+.intro{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	/*background: url(https://static.pexels.com/photos/26206/pexels-photo.jpg) no-repeat 50% 50%;*/
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+/*background*/
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content h1 {
+	font-family:'vcrOsdMono';
+	src: url(vcr_osd_mono_1.001);
+	color: #ababaf;
+	font-size: 150%;
+	padding: 5%;
+}
+
+.btn {
+	border-radius: 9px;
+	font-family:'vcrOsdMono';
+	src: url(vcr_osd_mono_1.001);
+	color: #ababaf;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #ababaf 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.btn:hover {
+	color: #ff8019;
+	border: solid #ff8019 3px;
+}
+
+@mediascreen and (max-width: 768px) {
+	.content h1 {
+			font-size: 150%;
+	}
+	.btn {
+		font-size: 110%;
+		padding: 7px 15px;
+	}
+}
+
+
+
+.footer {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	font-family:'vcrOsdMono';
+	src: url(vcr_osd_mono_1.001);
+	font-size: 10px;
+	color: #ababaf;
+	padding: 20px;
+}
+
+.media:hover {
+	color: #757575;
+}
+
+a, u {
+    text-decoration: none;
+    color: #ababaf;
+}
+

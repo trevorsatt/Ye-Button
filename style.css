@@ -36,16 +36,16 @@ html, body {
 
 .content h1 {
 	font-family:'vcrOsdMono';
-	src: url(vcr_osd_mono_1.001);
+	src: url(./vcr_osd_mono_1.001);
 	color: #ababaf;
-	font-size: 150%;
+	font-size: 120%;
 	padding: 5%;
 }
 
 .btn {
 	border-radius: 9px;
 	font-family:'vcrOsdMono';
-	src: url(vcr_osd_mono_1.001);
+	src: url(./vcr_osd_mono_1.001);
 	color: #ababaf;
 	font-size: 135%;
 	padding: 10px 20px;
@@ -76,7 +76,7 @@ html, body {
 	margin: 0 auto;
 	text-align: center;
 	font-family:'vcrOsdMono';
-	src: url(vcr_osd_mono_1.001);
+	src: url(./vcr_osd_mono_1.001);
 	font-size: 10px;
 	color: #ababaf;
 	padding: 20px;

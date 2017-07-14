@@ -59,18 +59,77 @@ html, body {
 	border: solid #ff8019 3px;
 }
 
-@mediascreen and (max-width: 768px) {
+/*MEDIA QUERIES*****************************/
+
+
+/*DESKTOP RESPONSIVE*/
+@media (max-width: 768px) {
 	.content h1 {
-			font-size: 150%;
+			font-size: 100%;
 	}
 	.btn {
-		font-size: 110%;
-		padding: 7px 15px;
+		font-size: 20px;
+		/*padding: 7px 15px;*/
 	}
 }
 
+/*IPHONE 6 PLUS*/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px){
+	.content h1 {
+			font-size: 30px;
+			padding: 80px;
+	}
+    .btn {
+		font-size: 40px;
+		padding: 60px 130px;
+	}
+}
+/*
+IPHONE 6*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px){
+	.content h1 {
+			font-size: 30px;
+			padding: 80px;
+	}
+    .btn {
+		font-size: 40px;
+		padding: 60px 130px;
+	}
+}
 
+/*IPHONE 5*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px){
+	.content h1 {
+			font-size: 30px;
+			padding: 80px;
+	}
+    .btn {
+		font-size: 40px;
+		padding: 60px 130px;
+	}
+}
 
+/*IPAD*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+	.content h1 {
+			font-size: 30px;
+			padding: 80px;
+	}
+    .btn {
+		font-size: 40px;
+		padding: 50px 110px;
+	}
+}
+/*
+footer code**********************/
 .footer {
 	max-width: 500px;
 	margin: 0 auto;

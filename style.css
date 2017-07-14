@@ -36,7 +36,7 @@ html, body {
 
 /*text style*/
 .content h1 {
-	font-family:'vcrOsdMono','VT323' monospace;
+	font-family:'vcrOsdMono','VT323';
 	src: url(./vcr_osd_mono_1.001.ttf);
 	color: #ababaf;
 	font-size: 120%;
@@ -46,7 +46,7 @@ html, body {
 /*button style*/
 .btn {
 	border-radius: 9px;
-	font-family:'vcrOsdMono','VT323' monospace;
+	font-family:'vcrOsdMono','VT323';
 	src: url(./vcr_osd_mono_1.001.ttf);
 	color: #ababaf;
 	font-size: 135%;
@@ -138,7 +138,7 @@ footer code**********************/
 	max-width: 500px;
 	margin: 0 auto;
 	text-align: center;
-	font-family:'vcrOsdMono','VT323' monospace;
+	font-family:'vcrOsdMono','VT323';
 	src: url(./vcr_osd_mono_1.001.ttf);
 	font-size: 10px;
 	color: #ababaf;

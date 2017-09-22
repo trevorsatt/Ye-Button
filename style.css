@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+
+.image {
+	height: 80px;
+	width: auto;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
 /*reset style*/
 html, body {
 	margin: 0;

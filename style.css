@@ -146,7 +146,8 @@ footer code**********************/
 }
 
 .media:hover {
-	color: #757575;
+/*	color: #757575;*/
+	color: #ff8019;
 }
 
 a, u {

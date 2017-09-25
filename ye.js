@@ -1,5 +1,5 @@
 var audio = new Audio();
-var playlist = ["sound/song1.mp3", "sound/song2.mp3", "sound/song3.mp3","sound/song4.mp3","sound/song5.mp3","sound/song6.mp3"];
+var playlist = ["sound/song1.mp3", "sound/song2.mp3", "sound/song3.mp3","sound/song4.mp3","sound/song5.mp3","sound/song6.mp3","sound/song7.mp3"];
 
 
 var lastSong = 100;
@@ -15,7 +15,7 @@ $(document).ready(function() {
 });
 
 function GetSong(last){
-	var songNum = Math.floor(Math.random() * 6) + 0;
+	var songNum = Math.floor(Math.random() * 7) + 0;
 
  	if(last !== songNum && typeof songNum !== undefined){
 		lastSong = songNum;
